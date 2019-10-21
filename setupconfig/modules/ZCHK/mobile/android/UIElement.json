@@ -1,0 +1,151 @@
+{
+	byXpathDic : {
+		"LOGIN_BTN"								:	"//button[contains(text(),'DYN1')]",
+		"DATE_ON_CALENDAR"						: 	"android.view.View[@text='1']",
+		"CLOUD_SCRN_OPTION"						:	"//android.widget.TextView[@resource-id='com.hubworks.zipchecklist.activities:id/title' and contains(@text='DYN1')]",
+		"LAST_MENU"								: 	"(//android.widget.TextView[@resource-id='com.hubworks.zipchecklist.activities:id/sliderChildTextView'])[last()]",
+		"LAST_MENU_ITEM"						: 	"(//android.widget.TextView[@resource-id='com.hubworks.zipchecklist.activities:id/task_name'])[last()]",
+		"FOOTER_OPTION"							:	"//android.widget.TextView[@resource-id='com.altametrics.zipclock.activities:id/onClockString' and contains(@text='DYN1')]",
+		"CHECKLIST_CATAGORI"					:	"//android.widget.TextView[@resource-id='com.hubworks.zipchecklist.activities:id/task_name' and contains(@text,'DYN1')]",
+		"CHECKLIST_NAME"						:	"//android.widget.TextView[@resource-id='com.hubworks.zipchecklist.activities:id/task_desc_name' and contains(@text,'DYN1')]",
+		"CORRECTIVE_ACTION_OPTION"				:	"//android.widget.CheckedTextView[@resource-id='com.hubworks.zipchecklist.activities:id/selectionView' and contains(@text,'DYN1')]",
+		"ASSIGN_TASK_SCREEN_OPTION"				:	"//android.widget.TextView[@resource-id='com.hubworks.zipchecklist.activities:id/empName' and contains(@text,'DYN1')]",
+		"HOME_FILTER_TAB"						:	"//android.widget.TextView[@resource-id='com.hubworks.zipchecklist.activities:id/titleText' and contains(@text,'DYN1')]",
+		"COMMENT_DESCRIPTIONS"					:	"//android.widget.TextView[@resource-id='com.hubworks.zipchecklist.activities:id/commentDescription' and contains(@text,'DYN1')]",
+		"EMPLOYEE_NAME_SHARETASKSCREEN"			:	"//android.widget.TextView[@resource-id='com.hubworks.zipchecklist.activities:id/employeNmaeView' and contains(@text,'DYN1')]",
+		"FILTER_OPTIONS"						:	"//android.widget.CheckedTextView[@resource-id='com.hubworks.zipchecklist.activities:id/checkedTxtView' and contains(@text,'DYN1')]",
+		"ON_DEMAND_CHECKLIST"					:	"//android.widget.TextView[@resource-id='com.hubworks.zipchecklist.activities:id/checkListName' and contains(@text,'DYN1')]",
+		"SEARCH_FIELD"       					:	"//android.widget.EditText[@resource-id='com.hubworks.zipchecklist.activities:id/search_editText' and contains(@text,'Search')]",
+ 		 "ACKN_ALL_BTN"      					:	"//android.widget.Button[@resource-id='com.hubworks.zipchecklist.activities:id/submitButton' and contains(@text,'DYN1')]",
+ 		
+ 		 "TAP_TOVIEW_DETAIL"      				:	"//android.widget.TextView[contains(@text,'Tap to View Details')]",
+		"LAST_MENU_ITEM"      :  "(//android.widget.TextView[@resource-id='com.hubworks.zipchecklist.activities:id/task_name'])[last()]",
+	/* Employee */
+	"CREW_DROPDOWN"							:	"//android.widget.TextView[@text='Crew']",
+	"POSITION_DROPDOWN"						:	"//android.widget.TextView[@text='Position']",	
+	
+	/* Generic */
+	"ZCHK_SIDE_MENU"   						: 	"//android.widget.TextView[@resource-id='com.hubworks.zipchecklist.activities:id/sliderChildTextView' and contains(@text,'DYN1')]",/* #DYN1-Side Menu Name */
+	"HEADAR_TAB"							:	"//android.widget.TextView[@resource-id='com.hubworks.zipchecklist.activities:id/title' and contains(@text,'DYN1')]",/* #DYN1=0,1,2,3 */
+	"FILTER_OPTION"							:	"//android.widget.CheckedTextView[@resource-id='com.hubworks.zipchecklist.activities:id/checkedTxtView' and contains(@text,'DYN1')]",
+	"DYN_BTN"    							:	"//android.widget.Button[@text='DYN1' and @ resource-id='com.altametrics.zipclock.activities:id/submitButton']",/* # send or ok or Save,Submit */
+	"ALERT_MODAL_CANCEL_BTN"				:	"//android.widget.Button[@resource-id='com.altametrics.zipclock.activities:id/cancelButton']",
+ 	/* #Onboarding */
+	"START_OF_WEEK_SELECTED_TEXT_VIEW"		:   "//android.widget.TextView[contains(@resource-id,'android:id/text1')]",
+	"START_OF_WEEK_AVAILABLE_OPTIONS"      	: 	"//android.widget.CheckedTextView[contains(@resource-id,'android:id/text')]"
+  },
+
+		byIDDic	 : {
+		"USERNAME"							: "sso-cust-email",
+		"PASSWORD"							:	"sso-cust-pwd",		
+	 "FILE_UPLOAD_DESCRIPTION_FIELD"		:	"com.hubworks.zipchecklist.activities:id/descriptionView",
+		/* #Home */
+		"FILTER_ICON"							:	"com.hubworks.zipchecklist.activities:id/filter",
+		"SCREEN_BACK_BTN"					:	"com.hubworks.zipchecklist.activities:id/backBtn",
+		"PROGRESS_BAR_1"					: 	"com.hubworks.zipchecklist.activities:id/progressBar1",
+		"CHECKLIST_NAME1"						:	"com.hubworks.zipchecklist.activities:id/task_name" ,
+		"CHECKLIST_TASK"					:	"com.hubworks.zipchecklist.activities:id/task_desc_name",
+		"FOLLOW_UP_ICON"					:	"com.hubworks.zipchecklist.activities:id/addCommentContainer",
+		"FOLLOW_UP_COMMENT"					:	"com.hubworks.zipchecklist.activities:id/addComment",
+		"TASK_DESCRIPTION"					:	"com.hubworks.zipchecklist.activities:id/description",
+		"HOME_FOLLOW_UP_TAB"				:	"com.hubworks.zipchecklist.activities:id/followup",
+		"HOME_CORRECTIVE_TAB"				:	"com.hubworks.zipchecklist.activities:id/correctiveAction",
+		"FOLLOW_UP_SCRN_TASK"				:	"com.hubworks.zipchecklist.activities:id/descreption",
+		"SEARCH_ICON"						:	"com.hubworks.zipchecklist.activities:id/searchButton",
+		"INPUT_FOR_SEARCH_FIELD"			:	"com.hubworks.zipchecklist.activities:id/search_editText",
+		"CANCEL_BUTTON"						:	"com.hubworks.zipchecklist.activities:id/cancelButton",
+		"TASK_RADIATOR_ICON"				:	"com.hubworks.zipchecklist.activities:id/icon",
+		"TASK_NOT_COMPLETE"					:	"com.hubworks.zipchecklist.activities:id/notcomplte",
+		"TASK_COMPLETE"						:	"com.hubworks.zipchecklist.activities:id/complte",
+		"TASK_COMPLETE_COUNT_HOME"			:	"com.hubworks.zipchecklist.activities:id/totalpage",
+		"CORRECTIVE_ACTION_DROPDOWN_ARROW"  :	"com.hubworks.zipchecklist.activities:id/caretIcon",
+		"DROPDOWN_TEXT"						:	"com.hubworks.zipchecklist.activities:id/mainTextView",
+		"CORRECTIVE_ACTION_NOTE_ICON"		:	"com.hubworks.zipchecklist.activities:id/correctiveNotes",
+		"TASK_ASSIGN_BTN"					:	"com.hubworks.zipchecklist.activities:id/assignTaskBtn",
+		"IMAGE_SELECT"						:	"com.hubworks.zipchecklist.activities:id/image_view",
+		"ATTACHMENT_BTN"					:	"com.hubworks.zipchecklist.activities:id/attachContainer",
+		"ATTACHMENT_DONE_BTN"				:	"com.hubworks.zipchecklist.activities:id/doneButton",
+		"ATTACHMENT_DELETE_BTN"				:	"com.hubworks.zipchecklist.activities:id/deleteBttnLayout",
+		"ATTACHMENT_DOWNLOAD_BTN"			:	"com.hubworks.zipchecklist.activities:id/downloadBttn",
+		"COMMENT_BTN"						:	"com.hubworks.zipchecklist.activities:id/commentContainer",
+		"COMMENT_SCREEN_INPUT_FIELD"		:	"com.hubworks.zipchecklist.activities:id/et_comment",
+		"COMMENT_SEND_BTN"					:	"com.hubworks.zipchecklist.activities:id/icon",
+		"SHARE_BTN"							:	"com.hubworks.zipchecklist.activities:id/shareTileContainer",
+		"COMMENT_DESCRIPTION"				:	"com.hubworks.zipchecklist.activities:id/commentDescription",
+		"SELECT_RECIPIENT"					:	"com.hubworks.zipchecklist.activities:id/emailTo",	
+		"SHARE_TASK_COMMENT"				:	"com.hubworks.zipchecklist.activities:id/messageBody",
+		"INBOX_FIRST_TASK"					:	"com.hubworks.zipchecklist.activities:id/explore",	
+		"INBOX_HEADER_LINE"					:	"com.hubworks.zipchecklist.activities:id/messageHeader",
+		"LEFT_SWAP_BTN"						:	"com.hubworks.zipchecklist.activities:id/lefticon",
+		"TASK_COMPLETED_MSG"				:	"com.hubworks.zipchecklist.activities:id/task_msg",
+		"TASK_PERCENTAGE"					:	"com.hubworks.zipchecklist.activities:id/task_percentage",
+		"TASK_PERCENTAGE_UNDER_DAILY_TASK"	:	"com.hubworks.zipchecklist.activities:id/percentageText",	
+		"NO_RECORD_FOUND_TEXT"				:	"com.hubworks.zipchecklist.activities:id/noRecord",	
+		"DELETE_BUTTON"						:	"com.hubworks.zipchecklist.activities:id/deleteBtn",
+		"TASK_COMPLETION_PERCENTAGE"		:	"com.hubworks.zipchecklist.activities:id/titleText",
+		"TOTAL_NUMBER_OF_TASK"				:	"com.hubworks.zipchecklist.activities:id/percentageText",	
+		"ERROR_MSG"							:	"com.hubworks.zipchecklist.activities:id/error_msg",
+		"MAIL_TO"							:	"com.hubworks.zipchecklist.activities:id/mailTo",
+		"CHECKLIST_NOTE"     				: "com.hubworks.zipchecklist.activities:id/notes_img",
+  		"CHECKLIST_NOTE_TEXTAREA"   		: "com.hubworks.zipchecklist.activities:id/addComment",
+  		"ERROR_MSG"       					: "com.hubworks.zipchecklist.activities:id/error_msg",
+  		"CHECKLIST_TOGGLE_BTN_ON"     		: "com.hubworks.zipchecklist.activities:id/background_oval_on",
+  		"CHECKLIST_TOGGLE_BTN_OFF"     		: "com.hubworks.zipchecklist.activities:id/background_oval_off",
+ 		"FOLLOWUP_SCRN_TASK_NAME"    		:  "com.hubworks.zipchecklist.activities:id/detailDescription",
+ 		"NEXT_ARROW"        				: "com.hubworks.zipchecklist.activities:id/righticon",
+ 		"TASK_TIME"   						:   "com.hubworks.zipchecklist.activities:id/task_time",
+ 		 "TASK_STATUS_CRITICAL"  :  "com.hubworks.zipchecklist.activities:id/critical_status", 
+  		 "TASK_STATUS_REMAINING" :  "com.hubworks.zipchecklist.activities:id/task_remaining_view",
+  		 "UPLOAD_FILE"						:	"com.hubworks.zipchecklist.activities:id/updateFile",
+		/* #Onboarding */
+		"ALERT_MODAL_TEXT"  				:	"com.hubworks.zipchecklist.activities:id/txt_alert_message",
+	/* #Headar Tab */
+		"SLIDER_ICON"						:	"com.hubworks.zipchecklist.activities:id/sliderBtn",
+
+	/* #Login Screen */
+		"LOGIN_EMAIL_ID"					:	"com.hubworks.zipchecklist.activities:id/emailIdView",
+		"LOGIN_PASSWORD"					:	"com.hubworks.zipchecklist.activities:id/passwordView",
+		"LOGIN_BUTTON"						:	"com.hubworks.zipchecklist.activities:id/loginButton",
+		"ZIP_CLOCK_APP_LOGO"				:	"com.hubworks.zipchecklist.activities:id/appLogoLayout",
+		"SIGN_UP_URL"						:	"com.hubworks.zipchecklist.activities:id/signupLayout",
+		"BACK_TO_LOGIN"						:	"com.hubworks.zipchecklist.activities:id/loginLayout",
+
+	/* #Role Window */
+		"EMPLOYEE_ROLE_BTN"					:	"com.hubworks.zipchecklist.activities:id/employeeTab",
+		"BUSINESS_OWNER_ROLE_BTN"			:	"com.hubworks.zipchecklist.activities:id/businessOwnerTab",
+
+	
+
+	/* #SignUp */
+		"EMPLOYEE_FULL_NAME"				:	"com.hubworks.zipchecklist.activities:id/fullNameView",
+		"EMAIL_ID"							:	"com.hubworks.zipchecklist.activities:id/emailIdView",
+		"MANAGER_MAIL_ID"					:	"com.hubworks.zipchecklist.activities:id/mgrEmailIdView",
+		"SIGNUP_BTN"						:	"com.hubworks.zipchecklist.activities:id/signupButton", 
+		"COUPON_CODE"						:	"com.hubworks.zipchecklist.activities:id/couponView",
+		"COUPON_APPLY_BTN"					:	"com.hubworks.zipchecklist.activities:id/applyCouponButton", 
+		"SUBMIT_BTN"						:	"com.hubworks.zipchecklist.activities:id/submitButton",
+		"NEXT_BTN"							:	"com.hubworks.zipchecklist.activities:id/next_button",
+		"PROCEED_BTN"						:	"com.hubworks.zipchecklist.activities:id/finish_button",
+		"OWNER_SIGNUP_LAST_STEP"			:	"com.hubworks.zipchecklist.activities:id/infoTextView2",
+		"FINAL_WIZARD_ICON"					:	"com.hubworks.zipchecklist.activities:id/finalWizardIcon",
+		"EMPLOYEE_SIGNUP_LAST_STEP"			:	"com.hubworks.zipchecklist.activities:id/successMsgView",
+		"BACK_TO_LOGIN_BTN"					:	"com.hubworks.zipchecklist.activities:id/backToLoginLayout",
+
+	/* #Calender */
+	"CAL_NEXT_DATE_ICON"					:	"com.hubworks.zipchecklist.activities:id/nextDateIcon",
+	"CAL_PRE_DATE_ICON"						:	"com.hubworks.zipchecklist.activities:id/prevDateIcon"
+	
+	},
+	byClassNameDic : {
+	},
+	byLinkTextDic : {
+	},
+	byPartialTextDic :{
+	},
+	byNameDic : {
+	},
+	byAccessibilityIDDic :{
+	},
+	byCSSSelector :{
+	}			
+}

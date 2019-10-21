@@ -1,0 +1,29 @@
+{
+
+  "ANDROID"	: {
+  
+    "deviceName": "Emulator",
+    "platformName": "Android",
+    "platformVersion": "4.4.2",
+    "appPath": "setupconfig/mobileapps/ZipSchedules_QA.apk",
+    "appPackage": "com.altametrics.rib.zipschedules.activities",
+    "appActivity": "com.android.foundation.ui.activities.FNSplashScreen",
+    "ip": "127.0.0.1",
+    "port": "4739",
+    "bundleId": "",
+    "udid": "emulator-5554"
+    
+  },
+  
+  "IOS": {
+    "deviceName": "Satyam's iPad",
+    "platformName": "iOS",
+    "platformVersion": "8.1",
+    "appPath": "",
+    "appPackage": "",
+    "appActivity": "",
+    "serverURL": "http://127.0.0.1:4723/wd/hub",
+    "bundleId": "",
+    "udid": ""
+  }
+}

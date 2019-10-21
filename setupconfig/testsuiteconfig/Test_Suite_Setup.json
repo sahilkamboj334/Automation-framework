@@ -1,0 +1,6 @@
+{
+"moduleIID" : "ZCHK",
+"driverIID":"CHROME",
+"excelPath" : "setupconfig/excel/ZAPP.xlsx",
+"platform"  : "WEB"
+}
